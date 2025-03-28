@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-    int a, b, sum; 
+int main()
+{
+    int a, b, sum;
     printf("enter two numbers:");
     scanf("%d %d", &a, &b);
 
@@ -26,6 +27,6 @@ int main() {
 //     sum = a + b;
 
 //     printf("The sum is: %d\n", sum);
-//     return 0; 
+//     return 0;
 // }
 // Abdullah-all@Mojahid
