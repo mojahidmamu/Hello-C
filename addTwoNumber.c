@@ -8,6 +8,10 @@ int main() {
     sum = a + b;
     printf(" The sum is: %d\n", sum);
     return 0;
+
+    // sum = a + b;
+    // printf(" The sum is: %d\n", sum);
+    // return 0;
 }
 
 // #include <stdio.h>
