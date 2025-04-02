@@ -8,9 +8,7 @@ int main () {
 
     // printf("Enter a number: ");
     // printf("%.3f" , num);
-    // printf("Enter a number: ");
-    // printf("%.3f" , num);
-
+    
     return 0;
 
 }
