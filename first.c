@@ -3,9 +3,9 @@
 int main()
 {
 
-    int age = 25;       // integer
-    float height = 5.9; // floating point number
-    char grade = 'A';   // character
+    // int age = 25;       // integer
+    // float height = 5.9; // floating point number
+    // char grade = 'A';   // character
 
     /**
      * TOTAL KEYWORDS IN C LANGUAGE....... 
@@ -20,7 +20,13 @@ unsigned    void        volatile    while
 
      */
 
-    printf("This is Mojahid if front of you");
-    printf("This is Mojahid\n");
+    // printf("This is Mojahid if front of you \n");
+    // printf("This is Mojahid \n");
+
+    // int age = 18;
+    // printf("age is %d", age);
+
+    float pi = 3.1416;
+    printf("the value of PI %f", pi);
     return 0;
 }
