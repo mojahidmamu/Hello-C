@@ -26,7 +26,10 @@ unsigned    void        volatile    while
     // int age = 18;
     // printf("age is %d", age);
 
-    float pi = 3.1416;
-    printf("the value of PI %f", pi);
+    // float pi = 3.1416;
+    // printf("the value of PI %f", pi);
+
+    char star = "###";
+    printf("char is %c", star);
     return 0;
 }
