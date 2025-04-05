@@ -5,6 +5,7 @@ int main () {
     // num = 25.25;
     char ch = 'Abdullah-all-Mojahid';
     printf("%c", ch);
+    // printf("%c", ch);
 
     // printf("Enter a number: ");
     // printf("%.3f" , num);
