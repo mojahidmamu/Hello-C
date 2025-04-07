@@ -23,6 +23,10 @@ unsigned    void        volatile    while
     // printf("This is Mojahid if front of you \n");
     // printf("This is Mojahid \n"); 
 
+     // printf("This is Mojahid if front of you \n");
+    // printf("This is Mojahid \n"); 
+
+
     // int age = 18;
     // printf("age is %d", age);
 
