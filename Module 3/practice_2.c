@@ -33,7 +33,7 @@
 // int main()
 // {
 //     int n;
-//     scanf("%d", &n); 
+//     scanf("%d", &n);
 //     for (int i = 0; i < n; i++)
 //     {
 //         printf("I Love Practice\n");
@@ -43,15 +43,22 @@
 // }
 
 // problem 5
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int a;
-    scanf("%d", a);
-    for (int i = 0; i < a; i++)
+    scanf("%d", &a);
+    for(int i = 1; i <= a; i++)
     {
-        printf("Mojahid");
+        if(i % 5 == 0)
+        {
+            printf("%d Yes\n", i);
+        }
+        else
+        {
+            printf("%d No\n", i);
+        }
     }
-    
+
     return 0;
 }
