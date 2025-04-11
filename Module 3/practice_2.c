@@ -43,22 +43,37 @@
 // }
 
 // problem 5
-#include <stdio.h>
-int main()
-{
-    int a;
-    scanf("%d", &a);
-    for(int i = 1; i <= a; i++)
-    {
-        if(i % 5 == 0)
-        {
-            printf("%d Yes\n", i);
-        }
-        else
-        {
-            printf("%d No\n", i);
-        }
-    }
+// #include <stdio.h>
+// int main()
+// {
+//     int a;
+//     scanf("%d", &a);
+//     for(int i = 1; i <= a; i++)
+//     {
+//         if(i % 5 == 0)
+//         {
+//             printf("%d Yes\n", i);
+//         }
+//         else
+//         {
+//             printf("%d No\n", i);
+//         }
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
+
+//FACTORIAL PROBLEM: 
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter number: ");
+//     scanf("%d", &n);
+
+//     int sum = 1;
+//     for(int i = 1; i <= n; i++){
+//         sum = sum * i;
+//     }
+//     printf("FINAL factorial: %d", sum);
+//     return 0;
+// }
