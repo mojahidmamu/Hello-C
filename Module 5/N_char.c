@@ -27,3 +27,12 @@
 //     }
 //     return 0;
 // }
+
+
+#include<stdio.h>
+int main()
+{
+    char num = '0';
+    printf("%d", num);
+    return 0;
+}

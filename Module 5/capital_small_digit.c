@@ -2,8 +2,7 @@
 int main()
 {
     char x;
-    scanf("%c", &x);
-    if ('0' >= x <= '9')
+    scanf("%c", &x); 
     if (x >= '0' && x <= '9')
     {
        printf("IS DIGIT\n");
