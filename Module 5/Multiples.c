@@ -7,6 +7,10 @@ int main()
     {
         printf("Multiples");
     }
+    else if (B % A == 0)
+    {
+        printf("Multiples");
+    }
     else
     {
         printf("No Multiples");

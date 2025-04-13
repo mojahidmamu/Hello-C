@@ -1,16 +1,15 @@
-// Even or Odd:  
 #include<stdio.h>
 int main()
 {
-     int num;
-     scanf("%d", &num);
-     if(num %2 == 0)
-     {
-        printf("EVEN");
-     }
-     else
-     {
-        printf("ODD");
-     }
+    int X;
+    scanf("%d", &X);
+    int digit = X / 1000;
+    if(digit % 2 == 0)
+    {
+      printf("EVEN\n");
+    }
+    else {
+      printf("ODD\n");
+    }
     return 0;
 }
