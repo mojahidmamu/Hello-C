@@ -56,3 +56,23 @@
     
 //     return 0;
 // }
+
+#include<stdio.h>
+int main()
+{
+    int a = 0;
+    if (a == 1)
+    {
+         if (a >= 0)
+         {
+           printf("True\n");
+         }
+         else
+         {
+            printf("False\n");
+         }
+         
+    }
+    
+    return 0;
+}
