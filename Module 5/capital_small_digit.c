@@ -10,7 +10,7 @@ int main()
     }
     else {
         printf("ALPHA\n");
-        if ('a' >= x <= 'z')
+        if (x >= 'a' && x <= 'z') // ('a' <= x <= 'z')
         {
           printf("IS SMALL\n");
         }
