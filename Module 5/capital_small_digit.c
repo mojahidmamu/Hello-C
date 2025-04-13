@@ -12,10 +12,10 @@ int main()
         printf("ALPHA\n");
         if ('a' >= x <= 'z')
         {
-          printf("IS SMALL");
+          printf("IS SMALL\n");
         }
         else{
-            printf("IS CAPITAL");
+            printf("IS CAPITAL\n");
         }
         
     }
