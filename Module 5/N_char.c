@@ -29,10 +29,30 @@
 // }
 
 
-#include<stdio.h>
-int main()
-{
-    char num = '0';
-    printf("%d", num);
-    return 0;
-}
+// #include<stdio.h>
+// int main()
+// {
+//     char num = '0';
+//     printf("%d", num);
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int mark = 76;
+//     if( mark >= 80){
+//         printf("A+");
+//     }
+//     else if (mark >= 70)
+//     {
+//         printf("A");
+//     }
+//     else if (mark >= 70)
+//     {
+//         printf("A-");
+//     }
+    
+    
+//     return 0;
+// }
