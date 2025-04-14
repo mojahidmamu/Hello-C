@@ -1,17 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int n;
-    scanf("%d", &n);
-    for (int i = 0; i < n; i++)
+    int textCase;
+    scanf("%d", &textCase);
+    for (int i = 1; i <= textCase; i++)
     {
-        int a;
-        scanf("%d", &a);
-        int last1 = a % 10;
-        int first1 = a / 10;
-        int first2 = first1 % 10;
-        printf("%d %d %d\n", last1, first2, first1);
+        int n;
+        scanf("%d", &n);
+        do
+        {
+            printf("%d ", n % 10);
+            n /= 10;
+        }
+        while (n != 0);
+        printf("\n");
     }
-    
     return 0;
 }
