@@ -1,13 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int n;
-    int factorial = 1;
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
+    int T;
+    int N;
+    scanf("%d", &T);
+    while (T--)
     {
-         factorial *= i;
+        scanf("%d", &N);
+        int i;
+        long long int fac = 1;
+        for (int i = 1; i <= N; i++)
+        {
+             fac *= i;
+        }
+        printf("%lld \n", fac);
+        
     }
-    
+
     return 0;
 }
