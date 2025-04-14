@@ -16,3 +16,7 @@ int main()
     }
     return 0;
 }
+// printf("Even: %d\n", even);
+    // printf("Odd: %d\n", odd);
+    // printf("Positive: %d\n", pos);
+    // printf("Negative: %d\n", neg);
