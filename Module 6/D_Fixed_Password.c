@@ -2,7 +2,7 @@
 int main()
 {
     int n;
-    while (scanf("%d", &n) != EOF)  
+    while (scanf("%d", &n))  
     {
         if (n == 1999)
         {
