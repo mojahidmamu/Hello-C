@@ -12,5 +12,6 @@ int main()
     printf("%c\n", c);
     printf("%.3f\n", d);
     printf("%lf\n", e);
+    // printf("%lf\n", e);
     return 0;
 }
