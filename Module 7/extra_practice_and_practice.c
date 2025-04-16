@@ -35,6 +35,7 @@
 //     return 0;
 // }
 
+
 // 3
 // #include <stdio.h>
 // int main()
@@ -60,9 +61,29 @@
 
 
 // 4
-#include<stdio.h>
-int main()
-{
-    
-    return 0;
-}
+// #include <stdio.h>
+// int main()
+// {
+//     int arr[3];
+//     for (int i = 0; i < 3; i++)
+//     {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     int min = arr[0];
+//     for (int i = 0; i < 3; i++)
+//     {
+//         if (arr[i] < min)
+//         {
+//             min = arr[i];
+//         }
+//     }
+//     printf("Max number is: %d", min);
+
+//     return 0;
+// }
+
+
+
+
+//  practice all problem: 
