@@ -1,4 +1,5 @@
-#include <stdio.h>
+// 1
+#include<stdio.h>
 int main()
 {
     int arr[5];
@@ -6,13 +7,14 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    int sum = 0;
     for (int i = 0; i < 5; i++)
     {
-        printf("%d ", arr[i]);
-        sum += arr[i];
+        if (i % 2 == 0)
+        {
+            printf("%d", arr[i]);
+        }
+        
     }
-    printf("\nSum of all value : %d", sum);
-
+    
     return 0;
 }
