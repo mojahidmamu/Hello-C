@@ -14,7 +14,7 @@ int main()
     {
         if (i % 2 == 1)
         {
-            printf("%d", arr[i]);
+            printf("%d ", arr[i]);
         }
     }
     printf("\n");
