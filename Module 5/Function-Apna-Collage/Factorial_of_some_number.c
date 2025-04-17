@@ -13,8 +13,8 @@ void factorial(int n)
 
 int main()
 {
-    factorial(5);
-    factorial(3);
+    int num = 5;
+    // printf("Factorial of %d is %d", num, factorial(num));
     
     return 0;
 }
