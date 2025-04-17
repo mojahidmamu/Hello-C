@@ -1,3 +1,4 @@
+// Function to Multiply Two Numbers
 #include <stdio.h>
 
 int multiply(int x, int y)
