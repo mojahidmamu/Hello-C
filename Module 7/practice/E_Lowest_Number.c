@@ -12,12 +12,12 @@ int main()
 
     int lowest = arr[0];
     int minIndex = 1;
-    for (int i = 1; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         if (lowest > arr[i])
         {
             lowest = arr[i];
-            minIndex = i;
+            minIndex = i + 1;
         }
     }
     printf("%d %d", lowest, minIndex);
