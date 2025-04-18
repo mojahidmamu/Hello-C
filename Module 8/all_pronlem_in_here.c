@@ -75,6 +75,6 @@
 //             neg_val += numbers;
 //         }
 //     }
-
+//      printf("%d %d\n", sum_pos, sum_neg);
 //     return 0;
 // }
