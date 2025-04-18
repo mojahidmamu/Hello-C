@@ -78,3 +78,27 @@
 //      printf("%d %d\n", sum_pos, sum_neg);
 //     return 0;
 // }
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    int array[a];
+
+    for (int i = 0; i < a; i++)
+    {
+        scanf("%d ", array[i]);
+    }
+
+    int b, c;
+    scanf("%d %d", &b,  &c);
+    array[b] = c;
+
+    for (int i = a; i >= 0; i--)
+    {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+    return 0;
+}
