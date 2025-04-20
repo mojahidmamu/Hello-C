@@ -30,6 +30,7 @@ int main()
     //     i++;
     //     j--;
     // }
+    
     for (int i = 0; i < n; i++)
     {
         scanf("%d ", array[i]);
