@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int a = 5, b= 8, temp;
+    int a = 10, b = 20, temp;
     temp = a;
-    a= b;
+    a = b;
     b = temp;
-    printf("%d %d %d ", a, b, temp);
+    printf("%d %d\n", a, b);
+//  printf("A = %dB = %d", a, b);
     return 0;
 }
