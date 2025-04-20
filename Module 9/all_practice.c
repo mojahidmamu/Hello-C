@@ -24,51 +24,45 @@
 //     return 0;
 // }
 
-
-
 // remove an element from an arry:
-#include<stdio.h>
-int main()
-{
-    int n;
-    scanf("%d", &n);
-    int array[n];
-    for (int i = 0; i < n; i++)
-    {
-         scanf("%d ", &array[i]);
-    }
-    int position;
-    scanf("%d ", &position);
-    // login
-    for (int i = position; i < n; i++)
-    {
-         array[i] = array[i = 1];
-    }
-    // pirnt
-    for (int i = 0; i < n-1; i++)
-    {
-         printf("%d ", array[i]);
-    }
-    return 0;
-}
-
-
-
-
-
-// reverse an array :
-
-
-
-
-// swap two variables:
 // #include <stdio.h>
 // int main()
 // {
-//     int a = 5, b = 8, temp;
-//     temp = a;
-//     a = b;
-//     b = temp;
-//     printf("%d %d %d ", a, b, temp);
+//     int n;
+//     scanf("%d", &n);
+//     int array[n];
+//     for (int i = 0; i < n; i++)
+//     {
+//         scanf("%d ", &array[i]);
+//     }
+//     int position;
+//     scanf("%d ", &position);
+    // logic
+//     for (int i = position; i <= n - 1; i++)
+//     {
+//         array[i] = array[i = 1];
+//     }
+    // pirnt 
+//     for (int i = 0; i < n - 1; i++)
+//     {
+//         printf("%d ", array[i]);
+//     }
 //     return 0;
 // }
+
+// reverse an array :
+
+// swap two variables:
+#include <stdio.h>
+int main()
+{
+    int a = 10;
+    int b = 20;
+    int temp; 
+    temp = a;
+    a = b;
+    b = temp;
+    printf("%d %d %d", a, b, temp);
+
+    return 0;
+}
