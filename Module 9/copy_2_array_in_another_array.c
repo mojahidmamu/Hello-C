@@ -1,20 +1,35 @@
 #include <stdio.h>
 int main()
 {
-    int n1;
-    scanf("%d", &n1);
-    int arr1[n1];
-    for (int i = 0; i < n1; i++)
+    int a;
+    scanf("%d\n", &a);
+    int arr1[a];
+    for (int i = 0; i < a; i++)
     {
         scanf("%d ", &arr1[i]);
     }
-    
-    int n2;
-    scanf("%d", &n2);
-    int arr2[n2];
-    for (int i = 0; i < n2; i++)
+
+    int b;
+    scanf("%d\n", &b);
+    int arr2[b];
+    for (int i = 0; i < b; i++)
     {
         scanf("%d ", &arr1[i]);
+    }
+
+    int arr3[a + b];
+    for (int i = 0; i < a; i++)
+    {
+        arr3[i] = arr1[i];
+    }
+    for (int i = 0; i < b; i++)
+    {
+        arr3[i + a] = arr2[i];
+    }
+
+    for (int i = 0; i < a + b; i++)
+    {
+        printf("%d ", arr3[i]);
     }
 
     return 0;
