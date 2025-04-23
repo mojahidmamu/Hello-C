@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     char a[101];
@@ -6,9 +6,8 @@ int main()
     int count = 0;
     for (int i = 0; a[i] != '\0'; i++)
     {
-       count++;
+        count++;
     }
     printf("%d", count);
-    
     return 0;
 }
