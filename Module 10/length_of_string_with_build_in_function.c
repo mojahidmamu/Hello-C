@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> // THIS IS FOR "strlen" build-in-funtion,
 int main()
 {
     char a[101];
