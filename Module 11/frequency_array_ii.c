@@ -9,7 +9,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    int fre[6] = {0};
+    int fre[6] = {0}; // change the line
     for (int i = 0; i < n; i++)
     {
         if (arr[i] == 0)
