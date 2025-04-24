@@ -22,7 +22,7 @@ int main()
         }
         else if (arr[i] == 2)
         {
-            fre[2]++;
+            fre[2]++; 
         }
         else if (arr[i] == 3)
         {
