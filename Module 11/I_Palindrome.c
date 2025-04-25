@@ -1,35 +1,24 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
-    int n;
-    scanf("%d", &n);
-    int a[n], original[n];
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d ", &a[i]);
-        original[i] = a[i];
-    }
-    int i = 0, j = n - 1;
-    while (i < j)
-    {
-        int temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
-        i++;
-        j--;
-    }
+    char a[101];
+    scanf("%s", &a);
+    int length = strlen(a);
+    int palindrome = 1;
+    int i = 0, j = length - 1;
 
-    int palirdrome = 1;
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < length / 2; i++)
     {
-        if (a[i] != original[i])
+
+        if (a[i] != a[length - i - 1])
         {
-            palirdrome = 0;
+            palindrome = 0;
             break;
         }
     }
 
-    if (palirdrome)
+    if (palindrome)
     {
         printf("YES\n");
     }
@@ -37,6 +26,5 @@ int main()
     {
         printf("NO\n");
     }
-
     return 0;
 }
