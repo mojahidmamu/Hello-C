@@ -14,15 +14,15 @@ int main()
 
         for (int i = 0; strng[i] != '\0'; i++)
         {
-            if (strng[i] > 'A' && strng[i] < 'Z')
+            if (strng[i] >= 'A' && strng[i] <= 'Z')
             {
                 capitalLeter++;
             }
-            else if (strng[i] > 'a' && strng[i] < 'z')
+            else if (strng[i] >= 'a' && strng[i] <= 'z')
             {
                 smallLetter++;
             }
-            else if (strng[i] > '0' && strng[i] < '9')
+            else if (strng[i] >= '0' && strng[i] <= '9')
             {
                 digitOrNumber++;
             }
