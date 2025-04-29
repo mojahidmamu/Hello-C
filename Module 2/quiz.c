@@ -3,6 +3,6 @@
 
 int main () {
     double a = 15 / 4;
-    printf("%f", a);
+    printf("%.3f", a);
     return 0;
 }

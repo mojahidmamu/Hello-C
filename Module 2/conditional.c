@@ -4,6 +4,7 @@
 int main()
 {
     int tk;
+    printf("enter a number of TK: ");
     scanf("%d", &tk);
     if (tk >= 100)
     {
