@@ -63,17 +63,17 @@
 //     return 0;
 // }
 
-//FACTORIAL PROBLEM: 
-// #include<stdio.h>
-// int main(){
-//     int n;
-//     printf("enter number: ");
-//     scanf("%d", &n);
+// FACTORIAL PROBLEM: 
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter number: ");
+    scanf("%d", &n);
 
-//     int sum = 1;
-//     for(int i = 1; i <= n; i++){
-//         sum = sum * i;
-//     }
-//     printf("FINAL factorial: %d", sum);
-//     return 0;
-// }
+    int sum = 1;
+    for(int i = 1; i <= n; i++){
+        sum = sum * i;
+    }
+    printf("FINAL factorial: %d", sum);
+    return 0;
+}

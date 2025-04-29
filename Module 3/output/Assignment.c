@@ -1,5 +1,5 @@
 /**
- * Hello, world! I am learning C programming language. ^_^
+Hello, world! I am learning C programming language. ^_^
 Programming is fun and challenging. /\/\/\
 I want to give my 100% dedication to learn!    I will succeed one day.
  */
@@ -13,7 +13,10 @@ I want to give my 100% dedication to learn!    I will succeed one day.
 //     return 0;
 // }
 
-// // problem-2
+
+
+
+// problem-2:
 // #include<stdio.h>
 // int main (){
 //     long long int A, B;
@@ -39,7 +42,8 @@ I want to give my 100% dedication to learn!    I will succeed one day.
 //     return 0;
 // }
 
-// // problem 4
+
+// problem 4:
 #include <stdio.h>
 int main()
 {
@@ -54,6 +58,8 @@ int main()
     }
     return 0;
 }
+
+
 
 // problem 5
 // #include <stdio.h>
@@ -76,12 +82,10 @@ int main()
 //             hasShoes = 1;
 //         }
 //     }
-
 //     if (hasShoes)
 //     {
 //         printf("Alisa will buy new shoes\n");
 //     }
-
 //     if (!hasPanjabi && !hasShoes)
 //     {
 //         printf("Bad luck!\n");

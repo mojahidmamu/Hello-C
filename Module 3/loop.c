@@ -12,6 +12,7 @@ int main()
 
     // Sum of 1 to N :
     int n;
+    printf("Enter a number: ");
     scanf("%d", &n);
     int sum = 0;
     for (int i = 1; i <= n; i++)
