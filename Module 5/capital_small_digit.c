@@ -1,23 +1,49 @@
-#include<stdio.h>
+// #include<stdio.h>
+// int main()
+// {
+//     char x;
+//     scanf("%c", &x);
+//     if (x >= '0' && x <= '9')
+//     {
+//        printf("IS DIGIT\n");
+//     }
+//     else {
+//         printf("ALPHA\n");
+//         if (x >= 'a' && x <= 'z') // ('a' <= x <= 'z')
+//         {
+//           printf("IS SMALL\n");
+//         }
+//         else{
+//             printf("IS CAPITAL\n");
+//         }
+
+//     }
+
+//     return 0;
+// }
+
+#include <stdio.h>
 int main()
 {
-    char x;
-    scanf("%c", &x); 
-    if (x >= '0' && x <= '9')
+    char a;
+    printf("Enter a char: ");
+    scanf("%c", &a);
+    if (a >= '0' && a <= '9')
     {
-       printf("IS DIGIT\n");
+        printf("IS Digit\n");
     }
-    else {
+    else
+    {
         printf("ALPHA\n");
-        if (x >= 'a' && x <= 'z') // ('a' <= x <= 'z')
+        if (a >= 'a' && a <= 'z')
         {
-          printf("IS SMALL\n");
+            printf("IS small\n");
         }
-        else{
-            printf("IS CAPITAL\n");
+        else if (a >= 'A' && a <= 'Z')
+        {
+            printf("IS capital\n");
         }
-        
     }
-    
+
     return 0;
 }
