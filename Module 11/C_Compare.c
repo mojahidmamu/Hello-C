@@ -2,21 +2,21 @@
 #include <string.h>
 int main()
 {
-    char a[101], b[101];
-    scanf("%s %s", &a, &b);
-    int val = strcmp(a, b);
-    if (val > 0)
+    char a[21], b[21];
+    scanf("%s\n%s", a, b);
+    int result = strcmp(a, b);
+    if (result > 0)
     {
-        printf("%s", b);
+        printf("%s\n", b);  
     }
-     else if (val == 0)
-     {
-         printf("%s", a);
-     }
-     
-    else if (val < 0)
+    else if (result == 0)
+    {
+        printf("%s'n", a);
+    }
+    else if (result < 0)
     {
         printf("%s", a);
     }
+
     return 0;
 }
