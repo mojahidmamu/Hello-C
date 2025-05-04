@@ -14,7 +14,7 @@
 //     return 0;
 // }
 
-//option-2
+// option-2
 #include <stdio.h>
 int main()
 {
@@ -28,7 +28,7 @@ int main()
             printf("*");
         }
         printf("\n");
-        star++;
+        star += 2;
     }
     return 0;
 }
