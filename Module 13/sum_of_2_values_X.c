@@ -15,13 +15,13 @@ int main()
     {
         for (int j = i + 1; j < n; j++) // j from i+1 to n
         {
-            if (arr[i] + arr[j] == x) // if> i+j = x,
+            if (arr[i] + arr[j] == x) // if> i+ j = x,
             {
                 flag = 1; // flag is increment...
             }
         }
     }
-    if (flag == 1)
+    if (flag) // if(flag) 
     {
         printf("Yes\n");
     }
