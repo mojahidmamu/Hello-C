@@ -13,7 +13,7 @@ int main()
     {
         for (int j = i + 1; j < n; j++) // j from i+1 to n...
         {
-            if (arr[i] > arr[j]) // serial is not OK... 
+            if (arr[i] > arr[j]) // serial is not OK...
             {
                 int temp = arr[i];
                 arr[i] = arr[j];
@@ -25,6 +25,5 @@ int main()
     {
         printf("%d ", arr[i]);
     }
-    
     return 0;
 }
