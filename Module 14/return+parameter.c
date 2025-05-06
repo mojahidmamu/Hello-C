@@ -6,7 +6,7 @@ int sum(int num1, int num2)
 }
 int main()
 {
-    printf("%d\n", sum(10, 5     )); // print & function call in a line..
+    printf("%d\n", sum(10, 5)); // print & function call in a line..
     int mojahid = sum(10, 5);   // store in another variables..
     printf("%d", mojahid);      // print in another line...
     return 0;
