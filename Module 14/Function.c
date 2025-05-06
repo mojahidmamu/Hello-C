@@ -1,13 +1,12 @@
 // #include <stdio.h>
-// void double_it(int num)
+// return type function_name(parameter)
 // {
-//     num * 2;
-//     return num;
+//  ---- function body
+// return the variables.
+// }
 // }
 // int main()
 // {
-//     int a = 10;
-//     int double = double_it(a);
-//     printf("%d", double);
+//     function call;
 //     return 0;
 // }
