@@ -1,5 +1,5 @@
 #include <stdio.h>
-void sum() // viod => for no return..
+void sum() // void => for no return..
 {
     int a, b;
     scanf("%d %d", &a, &b);
