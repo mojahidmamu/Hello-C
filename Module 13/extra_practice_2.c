@@ -14,7 +14,7 @@ int main()
         
         for (int j = 1; j <= i; j++)
         {
-            printf(" *");
+            printf(" %d", j);
         }
         printf("\n");
         space--;

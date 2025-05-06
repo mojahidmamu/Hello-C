@@ -21,7 +21,7 @@ int main()
             }
         }
     }
-    if (flag) // if(flag) 
+    if (flag) // if(flag)
     {
         printf("Yes\n");
     }

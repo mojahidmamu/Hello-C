@@ -1,24 +1,24 @@
-// 1. 
-#include<stdio.h>
+// 1.
+#include <stdio.h>
 int main()
 {
     int n;
     scanf("%d", &n);
-    int space = n-1;
-    for (int i = 1; i <= n; i++)
+    int space = n - 1;
+    for (int i = n ; i >= 0; i--)
     {
-        for (int k=1; k <= space; k++)
+        for (int k = 1; k <= space; k++)
         {
             printf(" ");
         }
-        
+
         for (int j = 1; j <= i; j++)
         {
-            printf(" *");
+            printf("*");
         }
         printf("\n");
-        space--;
+        space++;
     }
-    
+
     return 0;
 }
