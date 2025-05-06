@@ -18,7 +18,6 @@ int main()
         printf("\n");
         star += 2;
         space--;
-    }
+        }
     return 0;
 }
-
