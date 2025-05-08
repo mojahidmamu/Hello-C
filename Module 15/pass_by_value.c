@@ -13,15 +13,17 @@
 //     m(a);
 // }
 
-#include<stdio.h>
+#include <stdio.h>
 void fun(int a)
 {
- printf("fun er a er address %p\n", &a);
+    printf("%d\n", a);
+    printf("fun er a er address %p\n", &a);
 }
 int main()
 {
     int a = 10;
     fun(a);
+    printf("%d\n", a);
     printf("main er a er value %p", &a);
     return 0;
 }
