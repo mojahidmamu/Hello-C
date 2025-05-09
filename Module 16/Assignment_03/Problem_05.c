@@ -22,6 +22,7 @@ void odd_even()
     }
     printf("%d %d", even, odd);
 }
+
 int main()
 {
     odd_even();
