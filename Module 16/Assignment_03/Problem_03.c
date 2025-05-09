@@ -10,17 +10,21 @@ int count_before_one(int A[], int N)
         }
         count++;
     }
+    return count;
 }
+
 int main()
 {
     int N;
     scanf("%d", &N);
-    int A[N];
+
+    int A[1000];
     for (int i = 0; i < N; i++)
     {
-        scanf("%d", A[i]);
+        scanf("%d", &A[i]);
     }
     int result = count_before_one(A, N);
     printf("%d ", result);
     return 0;
 }
+// Accepted
