@@ -1,6 +1,8 @@
 #include <stdio.h>
-int print_1_to_n(int n)
+int print_1_to_n()
 {
+    int n;
+    scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
         printf("%d ", i);
@@ -8,8 +10,6 @@ int print_1_to_n(int n)
 }
 int main()
 {
-    int n;
-    scanf("%d", &n);
-    print_1_to_n(n);
+    print_1_to_n();
     return 0;
 }
