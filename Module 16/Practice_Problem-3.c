@@ -4,7 +4,7 @@ int count_odd(int array[], int n)
     int odd = 0;
     for (int i = 0; i < n; i++)
     {
-        if (array[i] % 2 != 0)
+        if (array[i] != 0)
         {
             odd++;
         }
@@ -20,7 +20,9 @@ int main()
     {
         scanf("%d", &array[i]);
     }
-    int count = count_odd(array, n);
-    printf("%d", count);
+
+    int Total_odd = count_odd(array, n);
+    printf("%d", Total_odd);
+
     return 0;
 }
