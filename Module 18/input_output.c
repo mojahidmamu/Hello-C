@@ -9,10 +9,10 @@ int main()
     {
         for (int j = 0; j < column; j++)
         {
-            scanf("%d ", &array[i][j]);
+            scanf("%d", &array[i][j]);
         }
-        printf("\n");
     }
+    
     // print the array: 
      for (int i = 0; i < row; i++)
     {
@@ -20,8 +20,7 @@ int main()
         {
             printf("%d ", array[i][j]);
         }
-        // printf("\n");
+        printf("\n");
     }
-
     return 0;
 }
