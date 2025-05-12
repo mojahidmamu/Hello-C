@@ -1,3 +1,6 @@
+/*
+
+
 // 1. Row Matrix (1 row, multiple columns)
 int rowMatrix[1][3] = {{1, 2, 3}};
 
@@ -48,3 +51,6 @@ int unitMatrix[3][3] = {
     {0, 1, 0},
     {0, 0, 1}
 };
+
+
+*/
