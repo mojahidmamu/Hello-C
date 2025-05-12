@@ -1,16 +1,16 @@
 #include <stdio.h>
 void hello(int i)
 {
-    if (i == 6)
+    if (i == 0)
     {
         return;
     }
     printf("%d\n", i);
-    hello(i + 1);
+    hello(i - 1);
 }
 int main()
 {
-    int i = 1;
+    int i = 5;
     hello(i);
     return 0;
 }
