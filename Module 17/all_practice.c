@@ -34,3 +34,20 @@
 //     return 0;
 // }
 
+// #include<stdio.h>
+// void hello(int i)
+// {
+//     if (i == 6)
+//     {
+//         return;
+//     }
+//     hello(i+1); // just call at first, then print...
+//     printf("%d\n", i); // this is super power of recursion
+    
+// }
+// int main()
+// {
+//     hello(1);
+//     return 0;
+// }
+
