@@ -13,13 +13,35 @@
 //     return 0;
 // }
 
-#include <stdio.h>
-void fun()
-{
-    printf("fun\n");
+// #include <stdio.h>
+// void fun()
+// {
+//     printf("fun\n");
   
+// }
+// int main()
+// {
+//     fun();
+// }
+
+#include <stdio.h>
+void mello()
+{
+    printf("Mello ");
+}
+void gelllo()
+{
+    printf("Gello ");
+    mello();
+}
+void hello()
+{
+    printf("Hello ");
+    gelllo();
 }
 int main()
 {
-    fun();
+    printf("Hi ");
+    hello();
+    return 0;
 }
