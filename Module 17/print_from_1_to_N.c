@@ -10,7 +10,7 @@ void hello(int i)
 }
 int main()
 {
-    int i = 1;
+
     hello(i);
     return 0;
 }
