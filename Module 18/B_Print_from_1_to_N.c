@@ -1,18 +1,18 @@
 #include <stdio.h>
 void print_some(int n, int i)
 {
-    if (i == n )
+    if (i == n + 1)
     {
         return;
     }
 
-    printf("I love Recursion\n");
-    print_some(n, i+1);
+    printf("%d\n", i);
+    print_some(n, i + 1);
 }
 int main()
 {
     int n;
     scanf("%d", &n);
-    print_some(n, 0);
+    print_some(n, 1);
     return 0;
 }
