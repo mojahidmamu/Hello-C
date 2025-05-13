@@ -1,17 +1,16 @@
+
 /*
-
-
-// 1. Row Matrix (1 row, multiple columns)
+1. Row Matrix (1 row, multiple columns)
 int rowMatrix[1][3] = {{1, 2, 3}};
 
-// 2. Column Matrix (multiple rows, 1 column)
+2. Column Matrix (multiple rows, 1 column)
 int columnMatrix[3][1] = {
     {1},
     {2},
     {3}
 };
 
-// 3. Zero Matrix (all elements are 0)
+3. Zero Matrix (all elements are 0)
 int zeroMatrix[3][3] = {
     {0, 0, 0},
     {0, 0, 0},
