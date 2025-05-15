@@ -1,19 +1,19 @@
 #include <stdio.h>
-int factorial(int n)
+long long int factorial(int n)
 {
     if (n == 1)
     {
         return 1;
     }
 
-    int mul = factorial(n - 1);
+    long long int mul = factorial(n - 1);
     return n * mul;
 }
 int main()
 {
     int n;
     scanf("%d", &n);
-    int ans = factorial(n);
-    printf("%d", ans);
+    long long int ans = factorial(n);
+    printf("%lld", ans);
     return 0;
 }
