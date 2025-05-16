@@ -41,7 +41,9 @@ int main()
         {
             printf("%d ", C[i]);
         }
+        printf("\n");
     }
 
     return 0;
 }
+// Accepted: 
