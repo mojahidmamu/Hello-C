@@ -12,14 +12,23 @@ int main()
             scanf("%d", &arr[i][j]);
         }
     }
-    
+
+    int flag = 1;
     if (R == C)
     {
-        
+        //
+        for (int i = 0; i < R; i++)
+        {
+            for (int j = 0; j < C; j++)
+            {
+                
+            }
+        }
     }
-    else{
+    else
+    {
         printf("NO\n");
     }
-    
+
     return 0;
 }
