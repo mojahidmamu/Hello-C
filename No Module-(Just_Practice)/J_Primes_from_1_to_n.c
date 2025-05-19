@@ -1,12 +1,18 @@
-// #include <stdio.h>
-// int main()
-// {
+//  #include <stdio.h>
+
+// int main() {
 //     int n;
 //     scanf("%d", &n);
-//     for (int i = 2; i <= n; i++)
-//     {
-//         if (i % 1 == 0 && i % i == 0)
-//         {
+
+//     for (int i = 2; i <= n; i++) {
+//         int isPrime = 1; // Assume i is prime
+//         for (int j = 2; j < i; j++) {
+//             if (i % j == 0) {
+//                 isPrime = 0; // Found a divisor, not prime
+//                 break;
+//             }
+//         }
+//         if (isPrime) {
 //             printf("%d ", i);
 //         }
 //     }
