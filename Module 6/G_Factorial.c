@@ -7,7 +7,7 @@ int main()
     while (T--)   
     {
         scanf("%d", &N);
-        int i;
+        
         long long int fac = 1;
         for (int i = 1; i <= N; i++)
         {

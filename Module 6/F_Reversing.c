@@ -9,7 +9,7 @@ int main()
         scanf("%d", &ar[i]);
     }
     int i = 0, j = n - 1;
-    while (i <j)
+    while (i < j)
     {
         int temp = ar[i];
         ar[i] = ar[j];
@@ -19,7 +19,7 @@ int main()
     }
     for (int i = 0; i < n; i++)
     {
-         printf("%d ", ar[i]);
+        printf("%d ", ar[i]);
     }
     return 0;
 }

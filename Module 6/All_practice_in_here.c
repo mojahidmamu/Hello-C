@@ -3,7 +3,7 @@
 // int main()
 // {
 //     int pass ;
-//     while (scanf("%d", &pass) != EOF)
+// while (scanf("%d", &pass) != EOF)
 //     {
 //         if (pass == 2024)
 //         {
