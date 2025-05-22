@@ -19,7 +19,7 @@ int main()
     }
     return 0;
 }
-
+// Abdullah all MOjahid
 /*
 #include<stdio.h>
 int main()
